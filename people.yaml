@@ -1,0 +1,41 @@
+- name: Alyssa
+  incompatibles:
+    - Stephen
+    - McKenzie
+
+- name: Stephen
+  incompatibles:
+    - Alyssa
+    - McKenzie
+
+- name: Leah
+  incompatibles:
+    - Mike
+
+- name: Mike
+  incompatibles:
+    - Leah
+
+- name: Annette
+  incompatibles:
+    - Tom
+
+- name: Tom
+  incompatibles:
+    - Annette
+
+- name: Garrett
+  incompatibles: []
+
+- name: McKenzie
+  incompatibles:
+    - Joey
+    - Alyssa
+    - Stephen
+
+- name: Joey
+  incompatibles:
+    - McKenzie
+
+- name: Reese
+  incompatibles: []
